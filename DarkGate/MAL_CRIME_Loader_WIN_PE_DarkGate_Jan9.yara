@@ -2,7 +2,7 @@ rule MAL_CRIME_Loader_WIN_PE_DarkGate_Jan9 {
     meta:
         description = "Detecting final payload of DarkGate loader on Windows Endpoints"
         author = "Arda Buyukkaya"
-        md5 = d25a5b444336b66cc5f36437701b896b
+        md5 = "d25a5b444336b66cc5f36437701b896b"
 
     strings:
         // XOR Config Decryption Routine 1
